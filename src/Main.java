@@ -4,8 +4,8 @@ public class Main {
     public static void main(String[] args) {
 
 
-double x = 72;//стоимость билета
-        double z = 0.2; //количество милей с 1 рубля
+double x = 108.2;//стоимость билета
+        double z = 0.05; //количество милей с 1 рубля
 
         double y = x * z;//расчет колчества милей от суммы билета
         double result = Math.floor(y);
