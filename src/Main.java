@@ -4,14 +4,14 @@ public class Main {
     public static void main(String[] args) {
 
 
-int x = 97;
+double x = 72;//стоимость билета
+        double z = 0.2; //количество милей с 1 рубля
 
-        //количество начисленных бонусов
-        int y = x/20;
-
+        double y = x * z;//расчет колчества милей от суммы билета
+        double result = Math.floor(y);
         System.out.println("С покупки вашего билета вы получите следующее количество милей:");
 
-        System.out.println(y);
+        System.out.println((result));
 
 
 
