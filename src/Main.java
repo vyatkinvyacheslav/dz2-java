@@ -7,8 +7,8 @@ public class Main {
         double price = 408;//стоимость билета
         double rate = 0.05; //количество милей с 1 рубля
 
-        double finalbonus = price * rate;//расчет колчества милей от суммы билета
-        double result = Math.floor(finalbonus);
+        double finalBonus = price * rate;//расчет колчества милей от суммы билета
+        double result = Math.floor(finalBonus);
         System.out.println("С покупки вашего билета вы получите следующее количество милей:");
 
         System.out.println((result));
